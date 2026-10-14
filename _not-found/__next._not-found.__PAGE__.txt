@@ -1,0 +1,24 @@
+1:"$Sreact.fragment"
+2:I[97367,["/_next/static/chunks/09xg_zir0qqo0.js"],"OutletBoundary"]
+3:"$Sreact.suspense"
+7:I[97367,["/_next/static/chunks/09xg_zir0qqo0.js"],"ViewportBoundary"]
+8:I[97367,["/_next/static/chunks/09xg_zir0qqo0.js"],"MetadataBoundary"]
+9:I[27201,["/_next/static/chunks/09xg_zir0qqo0.js"],"IconMark"]
+b:I[39756,["/_next/static/chunks/09xg_zir0qqo0.js"],"default"]
+c:I[37457,["/_next/static/chunks/09xg_zir0qqo0.js"],"default"]
+f:I[47420,["/_next/static/chunks/09xg_zir0qqo0.js"],"SmoothScroll"]
+10:I[71060,["/_next/static/chunks/09xg_zir0qqo0.js"],"InView"]
+:HL["/_next/static/chunks/1mcrlt1dtam15.css","style"]
+6:X
+e:X
+e:C
+0:{"buildId":"AlIs1bQPWKXQtwX971Lbg","data":[{"rsc":["$","$1","c",{"children":[["$","main",null,{"id":"main","className":"not-found","data-surface":"dark","children":["$","a",null,{"className":"not-found__home","href":"/","children":[["$","span",null,{"children":"Chapin"}]," ",["$","span",null,{"children":"Robotics"}]]}]}],null,["$","$L2",null,{"children":["$","$3",null,{"name":"Next.MetadataOutlet","children":"$@4"}]}]]}],"isPartial":"$@5","staleTime":"$6","varyParams":null},{"rsc":["$","$1","h",{"children":[["$","meta",null,{"name":"robots","content":"noindex"}],["$","$L7",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#0E0F10"}],["$","meta","3",{"name":"color-scheme","content":"light"}]]}],["$","div",null,{"hidden":true,"children":["$","$L8",null,{"children":["$","$3",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Chapin High School Robotics"}],["$","meta","1",{"name":"description","content":"Chapin High School in El Paso runs four VEX robotics teams. Here is how a local business can sponsor them."}],["$","meta","2",{"name":"robots","content":"noindex, nofollow"}],["$","link","3",{"rel":"icon","href":"data:,"}],["$","$L9","4",{}]]}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"isPartial":"$@a","staleTime":"$6","varyParams":null},{"rsc":["$","$1","c",{"children":[null,["$","$Lb",null,{"parallelRouterKey":"children","template":["$","$Lc",null,{}]}]]}],"isPartial":"$@d","staleTime":"$6","varyParams":"$e"},{"rsc":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1mcrlt1dtam15.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/09xg_zir0qqo0.js","async":true}]],["$","html",null,{"lang":"en","className":"bricolage_grotesque_206a3303-module__0SYk0q__variable newsreader_543db76a-module__w3bJwG__variable","suppressHydrationWarning":true,"children":[["$","head",null,{"children":["$","script",null,{"dangerouslySetInnerHTML":{"__html":"document.documentElement.classList.add('js');if(!matchMedia('(prefers-reduced-motion: reduce)').matches)document.documentElement.classList.add('js-motion')"}}]}],["$","body",null,{"children":[["$","a",null,{"className":"skip-link","href":"#main","children":"Skip to main content"}],["$","$Lf",null,{}],["$","$L10",null,{}],["$","$Lb",null,{"parallelRouterKey":"children","template":["$","$Lc",null,{}],"notFound":[["$","main",null,{"id":"main","className":"not-found","data-surface":"dark","children":["$","a",null,{"className":"not-found__home","href":"/","children":[["$","span",null,{"children":"Chapin"}]," ",["$","span",null,{"children":"Robotics"}]]}]}],[]]}]]}]]}]]}],"isPartial":"$@11","staleTime":"$6","varyParams":null}],"isUpgradeableISRFallback":false,"a":"$@12","rootVaryParams":null,"needsRuntimeRequest":"$@13"}
+4:null
+6:300
+13:true
+6:C
+12:0
+a:"$undefined"
+d:"$undefined"
+11:"$undefined"
+5:"$undefined"

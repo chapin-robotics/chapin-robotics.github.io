@@ -1,0 +1,511 @@
+{
+  "schema": "chapin-exact-live-hero-v1",
+  "producer": "scripts/bake-renders.py --only hero-live",
+  "candidate": false,
+  "committedSources": true,
+  "sourceCommit": "bd16b8cdb9a39d7aedfdc1dc47e837ecd74e1fcc",
+  "exporterSha256": "d74733c7ccd84cb7c406a33eb7707fde05a026f9863187f641e60454a9a9fcb2",
+  "producers": [
+    {
+      "path": "scripts/export-hero-live.py",
+      "bytes": 17219,
+      "sha256": "d74733c7ccd84cb7c406a33eb7707fde05a026f9863187f641e60454a9a9fcb2",
+      "matchesHead": true
+    },
+    {
+      "path": "scripts/bake-renders.py",
+      "bytes": 14374,
+      "sha256": "13ec53778a12a6ead7ade0e150801596f62f6046de5f8ac0a3f0e11644d0864d",
+      "matchesHead": true
+    },
+    {
+      "path": "scripts/extract-hero-source.py",
+      "bytes": 7926,
+      "sha256": "0ac64c8ec886b311c53c1b4403f10a74523e2bc7d113e8e05f4031063a180eec",
+      "matchesHead": true
+    },
+    {
+      "path": "scripts/convert-field.py",
+      "bytes": 42248,
+      "sha256": "b2257477f66649ac4311d7991046a6b64bb411fb75eb2e7dc749c04224f8657e",
+      "matchesHead": true
+    },
+    {
+      "path": "scripts/repair-game-pieces.py",
+      "bytes": 15677,
+      "sha256": "f8d61d895352ce87fdba6052d2fd3e4297f25ee98e0ee75a2fb2a18e814229d0",
+      "matchesHead": true
+    },
+    {
+      "path": "scripts/blender-hero-grid.py",
+      "bytes": 12270,
+      "sha256": "8259980f40fa72ca7870a79bb90ff6932dc807273e8a88261b6dc7bac7fe6ba3",
+      "matchesHead": true
+    },
+    {
+      "path": "scripts/beat-materials.py",
+      "bytes": 11792,
+      "sha256": "b9c43ebd9f8df818559908fe5b594bc6c4f9b00ea9dce32edbf802cc6ab08886",
+      "matchesHead": true
+    },
+    {
+      "path": "lib/scene/lighting.ts",
+      "bytes": 4377,
+      "sha256": "ae3b860f232de39e471f75284404e50df85786a0ceef4e65f95457279d0ee6c1",
+      "matchesHead": true
+    },
+    {
+      "path": "lib/scene/lighting-rig.json",
+      "bytes": 1642,
+      "sha256": "7b4acda96c30bda8709fbe78fa809a27462776337c9579ee98cf4721b426afd4",
+      "matchesHead": true
+    },
+    {
+      "path": "assets/source-archives.json",
+      "bytes": 3949,
+      "sha256": "8b622d22658901f12d70ac90027e8bdc5b53938c7f75323fc03dba17f0996408",
+      "matchesHead": true
+    }
+  ],
+  "source": {
+    "sourceStep": "assets/override-field.stp",
+    "rawStepSha256": "d4084a2403b806e57708e6ff2f56b1b55305e5bd134b3d3699345c3e58806976",
+    "compressedArchiveSha256": "949721717312b2b9f6ae89ee4e03aa3f6299a056f446b9eabe00535a689d531d",
+    "archiveParts": [
+      {
+        "path": "assets/source-parts/override-field.stp.xz/000.part",
+        "bytes": 4194304,
+        "sha256": "29447d6ae6c7a6dfc1bfe4187eaf2738b3823b83126de4fc376be9a150795038",
+        "matchesHead": true
+      },
+      {
+        "path": "assets/source-parts/override-field.stp.xz/001.part",
+        "bytes": 2262492,
+        "sha256": "5c49031c9a493f3ef908ee2ca90645a01e985a1bb4a84057dc40c7992d7088bc",
+        "matchesHead": true
+      }
+    ],
+    "extractionManifestSha256": "d05317f635421800ec3b264386bcaf13c308b886a3121d8fe743c39fea011ae5",
+    "extractorScriptSha256": "0ac64c8ec886b311c53c1b4403f10a74523e2bc7d113e8e05f4031063a180eec",
+    "deflectionMm": 0.1,
+    "angularDeflectionRadians": 0.2
+  },
+  "model": {
+    "file": "hero-pieces.glb",
+    "bytes": 3332104,
+    "sha256": "34507a581c7824e29254ab2c0942dcc85a1b5944e2bc2915faca3e75850ac553"
+  },
+  "units": "meters",
+  "upAxis": "+Y",
+  "rootNode": "hero-pieces",
+  "productTriangles": 166684,
+  "floorIncluded": false,
+  "textures": 0,
+  "geometrySimplified": false,
+  "geometryQuantized": false,
+  "objects": {
+    "cup": {
+      "node": "cup",
+      "restPosition": [
+        -0.062,
+        0.0,
+        0.014
+      ],
+      "localBounds": {
+        "min": [
+          -0.04007359966635704,
+          0.0,
+          -0.04008600115776062
+        ],
+        "max": [
+          0.04007359966635704,
+          0.16449999809265137,
+          0.04008600115776062
+        ]
+      },
+      "worldBounds": {
+        "min": [
+          -0.10207359966635704,
+          0.0,
+          -0.02608600115776062
+        ],
+        "max": [
+          -0.02192640033364296,
+          0.16449999809265137,
+          0.05408600115776062
+        ]
+      },
+      "triangles": 102472,
+      "halves": [
+        {
+          "node": "cup-half-0",
+          "sourceFile": "cup-half-0.npz",
+          "sourceNpzSha256": "590ad81e10b001613bfcb8fef4635739516a61660728b3c59e16e0fe05ac88fe",
+          "sourcePath": "/Field (FInished)/276-9250-81x <15>/276-9250-002_PMS 425c - Dark Gray__Stock-Pin-3-1",
+          "triangles": 51236,
+          "vertices": 29396,
+          "sourcePositionCornersSha256": "5bf18297861b77e4c1a906dac0514da0d0a3b695c4cd6ed73ba8dee5446924dd",
+          "sourceNormalCornersSha256": "8a55b61587951473a2aca681e265a78625970ba978830015c4caa7eb4fd63bbb",
+          "positionAccessor": 0,
+          "normalAccessor": 1,
+          "indexAccessor": 2,
+          "positionAndNormalCornersByteIdentical": true,
+          "material": {
+            "object": "cup",
+            "half": 0,
+            "name": "Art-directed cup red #B32234",
+            "srgb": "#B32234",
+            "roughness": 0.27,
+            "transmission": 0.0
+          }
+        },
+        {
+          "node": "cup-half-1",
+          "sourceFile": "cup-half-1.npz",
+          "sourceNpzSha256": "a5f58f59c5937b4b2ce7277c0f44c3a360f3eb10f8f7d3e8d4ecf697093ea289",
+          "sourcePath": "/Field (FInished)/276-9250-81x <15>/276-9250-002_Clear__Stock-Pin-3-1",
+          "triangles": 51236,
+          "vertices": 29396,
+          "sourcePositionCornersSha256": "0e47df86fb1c796b329e46a535de90ed85d2cceeb06d9a29cfb45892df1bb785",
+          "sourceNormalCornersSha256": "246066f22eb39563b3fb711c3bafe1fbd2399d5d608466bd5a72b0f5ba9e2546",
+          "positionAccessor": 3,
+          "normalAccessor": 4,
+          "indexAccessor": 5,
+          "positionAndNormalCornersByteIdentical": true,
+          "material": {
+            "object": "cup",
+            "half": 1,
+            "name": "Source clear injection moulded cup half",
+            "srgb": "#EEF0EE",
+            "roughness": 0.18,
+            "transmission": 0.9
+          }
+        }
+      ]
+    },
+    "pin": {
+      "node": "pin",
+      "restPosition": [
+        0.062,
+        0.0,
+        -0.021
+      ],
+      "localBounds": {
+        "min": [
+          -0.03733519837260246,
+          0.0,
+          -0.04014639928936958
+        ],
+        "max": [
+          0.03733519837260246,
+          0.1670307070016861,
+          0.04014639928936958
+        ]
+      },
+      "worldBounds": {
+        "min": [
+          0.024664801627397537,
+          0.0,
+          -0.06114639928936959
+        ],
+        "max": [
+          0.09933519837260246,
+          0.1670307070016861,
+          0.019146399289369582
+        ]
+      },
+      "triangles": 64212,
+      "halves": [
+        {
+          "node": "pin-half-0",
+          "sourceFile": "pin-half-0.npz",
+          "sourceNpzSha256": "f8ba92e56da82d637d5403974518fab8a5d70bc5b71db9d6453432b30ca035ea",
+          "sourcePath": "/Field (FInished)/276-9250-80x_Red-Neutral <19>/276-9250-001_Yellow__276-9250-001",
+          "triangles": 32106,
+          "vertices": 18986,
+          "sourcePositionCornersSha256": "17e0db5035bb5181f64ff5f66e681fbf0327a11f710cee67eea2a04eaedc142a",
+          "sourceNormalCornersSha256": "744121cce4df3a7fcde2726a89a93f92274ee3488fc1ce00f878fe92b8cc5b3e",
+          "positionAccessor": 6,
+          "normalAccessor": 7,
+          "indexAccessor": 8,
+          "positionAndNormalCornersByteIdentical": true,
+          "material": {
+            "object": "pin",
+            "half": 0,
+            "name": "Source embedded yellow approximate #FAB601",
+            "srgb": "#FAB601",
+            "roughness": 0.29,
+            "transmission": 0.0
+          }
+        },
+        {
+          "node": "pin-half-1",
+          "sourceFile": "pin-half-1.npz",
+          "sourceNpzSha256": "2e3c199d8e3aad6b78808aa80ac7f9c7231cf19520ac0f91628a4be63665e329",
+          "sourcePath": "/Field (FInished)/276-9250-80x_Red-Neutral <19>/276-9250-001_PMS 199c (Bright Red)__276-9250-001",
+          "triangles": 32106,
+          "vertices": 18986,
+          "sourcePositionCornersSha256": "08f93315f55ccf76077e404d075dfae24429a0b8fb767008ee3c0d8d5942483f",
+          "sourceNormalCornersSha256": "9fb1bf6dcddbf36933122829573e3111fe93f865ab5e4e7b2b3f265cfde6685d",
+          "positionAccessor": 9,
+          "normalAccessor": 10,
+          "indexAccessor": 11,
+          "positionAndNormalCornersByteIdentical": true,
+          "material": {
+            "object": "pin",
+            "half": 1,
+            "name": "Source PMS199C approximate #D50032",
+            "srgb": "#D50032",
+            "roughness": 0.28,
+            "transmission": 0.0
+          }
+        }
+      ]
+    }
+  },
+  "bounds": {
+    "min": [
+      -0.10207359966635704,
+      0.0,
+      -0.06114639928936959
+    ],
+    "max": [
+      0.09933519837260246,
+      0.1670307070016861,
+      0.05408600115776062
+    ]
+  },
+  "camera": {
+    "position": [
+      0.215,
+      0.255,
+      0.49
+    ],
+    "target": [
+      -0.0013692006468772888,
+      0.08351535350084305,
+      -0.0035301990658044846
+    ],
+    "radius": 0.5655039101221512,
+    "baseAzimuthDegrees": 23.673186772897935,
+    "baseElevationDegrees": 17.65244130879125,
+    "horizontalFovDegrees": 31.890791801845708,
+    "virtualVerticalFovDegrees": 31.890791801845708,
+    "lensMillimeters": 63,
+    "sensorWidthMillimeters": 36,
+    "referenceViewOffset": {
+      "fullWidth": 1773,
+      "fullHeight": 1773,
+      "x": 178,
+      "y": 321,
+      "width": 1440,
+      "height": 1268
+    },
+    "near": 0.01,
+    "far": 300,
+    "newOrbitLimitsDegrees": {
+      "yaw": [
+        -14,
+        14
+      ],
+      "pitch": [
+        -8,
+        8
+      ]
+    },
+    "expandedPitchAndActivationFramingValidated": false
+  },
+  "lighting": {
+    "rigSource": "lib/scene/lighting-rig.json",
+    "rigSha256": "7b4acda96c30bda8709fbe78fa809a27462776337c9579ee98cf4721b426afd4",
+    "rig": {
+      "coordinateFrame": "subject-centered-camera-aligned",
+      "scale": "half the maximum subject world-bound dimension",
+      "key": {
+        "color": "#F1EEE7",
+        "intensity": 18.0,
+        "position": [
+          -1.8,
+          2.6,
+          2.2
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "width": 3,
+        "height": 3,
+        "xTravel": 0.3
+      },
+      "fill": {
+        "color": "#F1EEE7",
+        "intensity": 9.0,
+        "position": [
+          2,
+          1.8,
+          1.2
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "width": 4,
+        "height": 4
+      },
+      "rim": {
+        "color": "#7BAFD4",
+        "intensity": 2.6,
+        "position": [
+          2,
+          1.2,
+          -2.5
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "width": 2,
+        "height": 3
+      },
+      "environmentIntensity": 1.2,
+      "exposure": 0.9,
+      "linearWhiteCeiling": 0.96,
+      "toneMapping": "three-aces-shoulder-v1",
+      "toneCurve": {
+        "name": "three-aces-shoulder-v1",
+        "shoulder": 4.0,
+        "exposureDivisor": 0.6,
+        "inputMatrix": [
+          [
+            0.59719,
+            0.35458,
+            0.04823
+          ],
+          [
+            0.076,
+            0.90834,
+            0.01566
+          ],
+          [
+            0.0284,
+            0.13383,
+            0.83777
+          ]
+        ],
+        "outputMatrix": [
+          [
+            1.60475,
+            -0.53108,
+            -0.07367
+          ],
+          [
+            -0.10208,
+            1.10813,
+            -0.00605
+          ],
+          [
+            -0.00327,
+            -0.07276,
+            1.07602
+          ]
+        ],
+        "fit": {
+          "numeratorLinear": 0.0245786,
+          "numeratorConstant": -9.0537e-05,
+          "denominatorQuadratic": 0.983729,
+          "denominatorLinear": 0.432951,
+          "denominatorConstant": 0.238081
+        }
+      }
+    },
+    "environment": {
+      "type": "shared-procedural-environment",
+      "source": "lib/scene/lighting.ts",
+      "sourceSha256": "ae3b860f232de39e471f75284404e50df85786a0ceef4e65f95457279d0ee6c1",
+      "externalHdri": null,
+      "pmremSize": 32
+    },
+    "materialsSource": "scripts/blender-hero-grid.py",
+    "materialDifferences": [
+      "Same source mesh and per-corner normals; Three physical shading is not Cycles path tracing.",
+      "Opaque Cycles subsurface weight .012 is not represented by a glTF material extension.",
+      "Transmission .9 and IOR1.47 are retained; no unmeasured uniform volume thickness is invented.",
+      "The original shadow-catcher floor is not included in this geometry asset."
+    ]
+  },
+  "accessorHashes": [
+    {
+      "accessor": 0,
+      "sha256": "94d0e386be454f6b19a25e4578363643bc17cc97584affe1ebf88a0c98683e88",
+      "bytes": 352752
+    },
+    {
+      "accessor": 1,
+      "sha256": "006cfe53bded1476429163691baf74d91f86a71c49dbeff080db978167b611b4",
+      "bytes": 352752
+    },
+    {
+      "accessor": 2,
+      "sha256": "efc21dce8d408a42f630a0afe03dc58cb9389b6bf66c0860bca7009a85765af5",
+      "bytes": 307416
+    },
+    {
+      "accessor": 3,
+      "sha256": "94ca01e1fbaeceb1b6dbe596bbabdc32dc8129914db2b3255009b30fc4ae9307",
+      "bytes": 352752
+    },
+    {
+      "accessor": 4,
+      "sha256": "5fbccaa31a1bc2ec678e1b5d933e3218347adb6fdaba4605ea508a31d13a7f25",
+      "bytes": 352752
+    },
+    {
+      "accessor": 5,
+      "sha256": "efc21dce8d408a42f630a0afe03dc58cb9389b6bf66c0860bca7009a85765af5",
+      "bytes": 307416
+    },
+    {
+      "accessor": 6,
+      "sha256": "451dd67462d166a75cbc5c9a5e03a326e3d72ed75e503169f99a16c317dcc4b3",
+      "bytes": 227832
+    },
+    {
+      "accessor": 7,
+      "sha256": "bccaa94ba9701692673c35bd272fce0cb6e9cda17ba2ffc35973818377d84a59",
+      "bytes": 227832
+    },
+    {
+      "accessor": 8,
+      "sha256": "cc88493732b947f0a844b92cebeff30999bb84bd74a618df5945d1cd3a374e01",
+      "bytes": 192636
+    },
+    {
+      "accessor": 9,
+      "sha256": "6e9179050ada005aedcc85ec9f4644022348178edeacb7fa57a1da251302460e",
+      "bytes": 227832
+    },
+    {
+      "accessor": 10,
+      "sha256": "21a0c8454a8b6cc99c82710f248a16798586cda32814db53c1aabc29f5a6b917",
+      "bytes": 227832
+    },
+    {
+      "accessor": 11,
+      "sha256": "35fbff6f8d6988ca677e23de14faf3e6121ab707d45a66b0107a9e382fe60e9a",
+      "bytes": 192636
+    }
+  ],
+  "validation": {
+    "triangles": true,
+    "sourceNpzHashes": true,
+    "sourceCornerPositionsExact": true,
+    "sourceCornerNormalsExact": true,
+    "sourceArchivePartHashes": true,
+    "browserLoaded": false,
+    "frameRateMeasured": false,
+    "newOrbitAndLiftEnvelopeChecked": false
+  }
+}

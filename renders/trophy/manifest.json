@@ -1,0 +1,281 @@
+{
+  "producer": "scripts/bake-renders.py --only trophy",
+  "sourceSha256": "1fdf10742df3c3e83374f0b99ede117d4c2d7c6b3965e87861b66aed91a08809",
+  "modelSha256": "478c0d80846bcfcfa3f3d5b63490f52d2d55007f83ee61129277caab5a85aeab",
+  "blankPlates": [
+    {
+      "name": "FRONT PLATE",
+      "triangles": 372,
+      "verticesAfterNumericalWeld": 184,
+      "watertight": true,
+      "windingConsistent": true,
+      "eulerNumber": -2,
+      "volumeMm3": 7800.022154907948,
+      "boundsMm": [
+        [
+          0,
+          -55.87999725341797,
+          0
+        ],
+        [
+          88.9000015258789,
+          0,
+          1.587499976158142
+        ]
+      ],
+      "degenerateTriangles": 0,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0
+    },
+    {
+      "name": "DATE",
+      "triangles": 372,
+      "verticesAfterNumericalWeld": 184,
+      "watertight": true,
+      "windingConsistent": true,
+      "eulerNumber": -2,
+      "volumeMm3": 1930.9467178490795,
+      "boundsMm": [
+        [
+          0,
+          -14.295318603515625,
+          0
+        ],
+        [
+          88.9000015258789,
+          0,
+          1.587499976158142
+        ]
+      ],
+      "degenerateTriangles": 0,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0
+    }
+  ],
+  "samplesPerPixel": 96,
+  "width": 800,
+  "height": 1000,
+  "settings": {
+    "width": 800,
+    "height": 1000,
+    "samples": 96,
+    "fov": 32,
+    "direction": [
+      0.28,
+      -1,
+      0.16
+    ],
+    "frameFill": 0.86
+  },
+  "lighting": {
+    "sourceRig": {
+      "coordinateFrame": "subject-centered-camera-aligned",
+      "scale": "half the maximum subject world-bound dimension",
+      "key": {
+        "color": "#F1EEE7",
+        "intensity": 18,
+        "position": [
+          -1.8,
+          2.6,
+          2.2
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "width": 3,
+        "height": 3,
+        "xTravel": 0.3
+      },
+      "fill": {
+        "color": "#F1EEE7",
+        "intensity": 9,
+        "position": [
+          2,
+          1.8,
+          1.2
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "width": 4,
+        "height": 4
+      },
+      "rim": {
+        "color": "#7BAFD4",
+        "intensity": 2.6,
+        "position": [
+          2,
+          1.2,
+          -2.5
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "width": 2,
+        "height": 3
+      },
+      "environmentIntensity": 1.2,
+      "exposure": 0.9,
+      "linearWhiteCeiling": 0.96,
+      "toneMapping": "three-aces-shoulder-v1",
+      "toneCurve": {
+        "name": "three-aces-shoulder-v1",
+        "shoulder": 4,
+        "exposureDivisor": 0.6,
+        "inputMatrix": [
+          [
+            0.59719,
+            0.35458,
+            0.04823
+          ],
+          [
+            0.076,
+            0.90834,
+            0.01566
+          ],
+          [
+            0.0284,
+            0.13383,
+            0.83777
+          ]
+        ],
+        "outputMatrix": [
+          [
+            1.60475,
+            -0.53108,
+            -0.07367
+          ],
+          [
+            -0.10208,
+            1.10813,
+            -0.00605
+          ],
+          [
+            -0.00327,
+            -0.07276,
+            1.07602
+          ]
+        ],
+        "fit": {
+          "numeratorLinear": 0.0245786,
+          "numeratorConstant": -0.000090537,
+          "denominatorQuadratic": 0.983729,
+          "denominatorLinear": 0.432951,
+          "denominatorConstant": 0.238081
+        }
+      }
+    },
+    "areaPowerConversion": "Three numeric RGB radiance units: energy = intensity × width × height × pi. No 683 lm/W divisor: both engines consume scene-linear RGB renderer units, not calibrated photometric watts.",
+    "areaLights": [
+      {
+        "name": "key",
+        "normalizedSize": [
+          3,
+          3
+        ],
+        "sourceIntensity": 18
+      },
+      {
+        "name": "fill",
+        "normalizedSize": [
+          4,
+          4
+        ],
+        "sourceIntensity": 9
+      },
+      {
+        "name": "rim",
+        "normalizedSize": [
+          2,
+          3
+        ],
+        "sourceIntensity": 2.6
+      }
+    ]
+  },
+  "exposure": 0.9,
+  "toneMapping": {
+    "name": "three-aces-shoulder-v1",
+    "shoulder": 4,
+    "exposureDivisor": 0.6,
+    "inputMatrix": [
+      [
+        0.59719,
+        0.35458,
+        0.04823
+      ],
+      [
+        0.076,
+        0.90834,
+        0.01566
+      ],
+      [
+        0.0284,
+        0.13383,
+        0.83777
+      ]
+    ],
+    "outputMatrix": [
+      [
+        1.60475,
+        -0.53108,
+        -0.07367
+      ],
+      [
+        -0.10208,
+        1.10813,
+        -0.00605
+      ],
+      [
+        -0.00327,
+        -0.07276,
+        1.07602
+      ]
+    ],
+    "fit": {
+      "numeratorLinear": 0.0245786,
+      "numeratorConstant": -0.000090537,
+      "denominatorQuadratic": 0.983729,
+      "denominatorLinear": 0.432951,
+      "denominatorConstant": 0.238081
+    }
+  },
+  "seconds": 14.418543167004827,
+  "complete": true,
+  "inputs": {
+    "scripts/bake-renders.py": "13ec53778a12a6ead7ade0e150801596f62f6046de5f8ac0a3f0e11644d0864d",
+    "scripts/blender-trophy.py": "35a5cc7776310721b9546e360410a36d37dd5f6c81e6ccaba1d9dec75d6d4c40",
+    "scripts/beat-materials.py": "b9c43ebd9f8df818559908fe5b594bc6c4f9b00ea9dce32edbf802cc6ab08886",
+    "scripts/shared_tone.py": "9e2c811fdfc00a0e52e02b4a2c991c2ab14ad7faed88e2892a298531f8baad13",
+    "scripts/convert-trophy.py": "87f925fd6dbfc6ed880edbae7061be0e87edf13bd073eb12dc867f0c9f064a07",
+    "scripts/convert-cad.py": "b5b3c19b87cd381a6452c237925aad843df60edca207f7910f421ce56a663d4d",
+    "assets/ASSEMBLY.stp": "1fdf10742df3c3e83374f0b99ede117d4c2d7c6b3965e87861b66aed91a08809",
+    "assets/trophy-derived/trophy.glb": "478c0d80846bcfcfa3f3d5b63490f52d2d55007f83ee61129277caab5a85aeab"
+  },
+  "sourcePngSha256": "a0309229456e278890edf557403ee50525cb5e93907ab929d1ecc60ad570a9df",
+  "encoderSha256": "e2b4adc6cb69629bb088df4a073187373491e164f9769aa5c038930582a19705",
+  "avif": {
+    "file": "trophy.avif",
+    "bytes": 36677,
+    "sha256": "7cbc2de54d239cb63f7a8d7b77eec38eda7404a57d31dd65148c05ce26a00b77",
+    "meanSubjectLuminance": 0.3845028037359289,
+    "subjectPixels": 310981,
+    "pureWhitePixels": 0,
+    "edgeAlpha": 0
+  },
+  "webp": {
+    "file": "trophy.webp",
+    "bytes": 50284,
+    "sha256": "c6171bd06c7fed5026f4f80e14719d00a1f7b2b0a97323849d3e2561d05dea9b",
+    "meanSubjectLuminance": 0.3853817000831633,
+    "subjectPixels": 310991,
+    "pureWhitePixels": 0,
+    "edgeAlpha": 0
+  }
+}
