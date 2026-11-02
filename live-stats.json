@@ -1,5 +1,16 @@
 {
   "season": "2026-2027 Override",
-  "updatedAt": null,
-  "teams": []
+  "updatedAt": "2026-11-02T18:00:00.000Z",
+  "teams": [
+    {
+      "number": "40217S",
+      "wins": 7,
+      "losses": 2,
+      "ties": 0,
+      "events": 1,
+      "bestRank": 6,
+      "awards": ["Tournament Champions", "Judges Award"],
+      "skills": 40
+    }
+  ]
 }
