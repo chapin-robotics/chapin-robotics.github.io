@@ -1,15 +1,18 @@
 {
-  "season": "2026-2027 Override",
-  "updatedAt": "2026-11-02T18:00:00.000Z",
+  "season": "VEX V5 Robotics Competition 2026-2027: Override",
+  "updatedAt": "2026-11-03T20:15:59.901Z",
   "teams": [
     {
       "number": "40217S",
-      "wins": 7,
+      "wins": 4,
       "losses": 2,
       "ties": 0,
       "events": 1,
       "bestRank": 6,
-      "awards": ["Tournament Champions", "Judges Award"],
+      "awards": [
+        "Tournament Champions",
+        "Judges Award"
+      ],
       "skills": 40
     }
   ]
